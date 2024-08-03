@@ -1,0 +1,16 @@
+/* Základní reset stylů */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stylování pro navigační lištu */
+.navbar{
+        background-color: #333;
+        padding: 1em;rgb(51, 51, 51)rgb(51, 51, 51)rgb(69, 19, 109);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
