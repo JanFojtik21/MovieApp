@@ -15,10 +15,38 @@
     align-items: center; /* Zarovnání navigačních prvků na střed vertikálně */
     justify-content: flex-start; /* Zarovnání navigačních prvků vlevo horizontálně */
 }
-.search{
-    border-radius: 50px;
-    width: 50px;
-    height: 90px;
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
 }
 
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #333;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #333;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #777;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
