@@ -1,21 +1,24 @@
 /* Základní reset stylů */
 * {
+    background-color: #444;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 /* Stylování pro navigační lištu */
 .navbar {
-    padding: 10px;
+    padding: 50px;
     background-color: #333;
     display: flex;
     align-items: center; /* Zarovnání navigačních prvků na střed vertikálně */
     justify-content: flex-start; /* Zarovnání navigačních prvků vlevo horizontálně */
 }
-
-.navbar a {
-    margin: 0 5px; /* Zmenšení mezer mezi prvky */
-    color: white;
-    text-decoration: none;
+.search{
+    border-radius: 50px;
+    width: 50px;
+    height: 90px;
 }
+
+
